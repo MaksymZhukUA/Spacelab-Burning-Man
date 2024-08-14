@@ -1,0 +1,137 @@
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header {
+    height: auto;
+    width: 100%;
+  }
+  .main__article {
+    width: 488px;
+  }
+  .main__img img {
+    width: 228px;
+    height: 271px;
+  }
+  .main__img1 img {
+    width: 480px;
+    height: 271px;
+  }
+  .main__img1 {
+    margin-top: 8%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  :root {
+    font-size: 12px;
+  }
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .header {
+    height: auto;
+    width: 100%;
+  }
+  main {
+    height: 600px;
+  }
+  .main__article {
+    width: 350px;
+  }
+  .main__img img {
+    width: 167px;
+    height: 231px;
+    margin-top: 5%;
+  }
+  .main__img1 img {
+    width: 350px;
+    height: 231px;
+  }
+  .main__img {
+    margin-top: 21%;
+  }
+  footer {
+    height: 100px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    font-size: 10px;
+  }
+  body {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .main__articles {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__article {
+    width: 500px;
+    margin-top: 4%;
+  }
+  .main__img {
+    margin-top: 7%;
+  }
+  .main__img img {
+    width: 240px;
+    height: 331px;
+  }
+  .main__img1 img {
+    width: 500px;
+    height: 331px;
+  }
+  footer {
+    margin-top: 40%;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  :root {
+    font-size: 6px;
+  }
+  body {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    height: auto;
+  }
+  .header__buy-tickets {
+    width: 78px;
+    height: 25px;
+  }
+  .main__articles {
+    display: flex;
+    flex-direction: column;
+  }
+  .main__article {
+    width: 262px;
+    margin-top: 2%;
+  }
+  .main__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .main__img img {
+    width: 230px;
+    height: 301px;
+  }
+  .main__img1 img {
+    width: 262px;
+    height: 181px;
+  }
+  footer {
+    margin-top: 35%;
+    height: 70px;
+  }
+}
